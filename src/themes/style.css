@@ -1,0 +1,64 @@
+:root {
+    --lightgray: #d9d9d9;
+    --darkGrey: #464d53;
+    --purple: #6747ed;
+    --gradient: linear-gradient(210.41deg, #6747ed 1.14%, #c647ed 100.75%);
+    --appColor: #040404;
+    --glass: rgba(255, 255, 255, 0.54);
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.App {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(https://images.pexels.com/photos/3784566/pexels-photo-3784566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    mix-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 6rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: min(100vh);
+}
+.spotmusic {
+    display: grid;
+    height: 97%;
+    width: 97%;
+    border-radius: 0.5rem;
+    gap: 16px;
+    grid-template-columns: 11rem auto 20rem;
+    -webkit-backdrop-filter: blur(5.4px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.blur {
+    background: rgba(253, 120, 43, 0.69);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(212px);
+    z-index: -9;
+}

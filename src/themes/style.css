@@ -14,8 +14,8 @@
 }
 
 .App {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-        url(https://images.pexels.com/photos/3784566/pexels-photo-3784566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(https://wallpapershome.com/images/pages/pic_h/23424.jpg);
     mix-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,12 +32,12 @@
     width: 97%;
     border-radius: 0.5rem;
     gap: 16px;
-    grid-template-columns: 11rem auto 20rem;
+    grid-template-columns: 18rem auto 20rem;
     -webkit-backdrop-filter: blur(5.4px);
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(9.4px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(173, 173, 173, 0.171);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(183, 183, 183, 0.11);
     overflow: hidden;
 }
 
@@ -61,4 +61,13 @@ code {
     border-radius: 50%;
     filter: blur(212px);
     z-index: -9;
+}
+
+@keyframes text-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
 }

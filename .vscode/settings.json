@@ -3,5 +3,8 @@
         "javascript",
         "javascriptreact",
         "vue"
+    ],
+    "cSpell.words": [
+        "spotmusic"
     ]
 }

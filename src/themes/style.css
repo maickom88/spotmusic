@@ -15,7 +15,7 @@
 
 .App {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-        url(https://wallpapershome.com/images/pages/pic_h/23424.jpg);
+        url(https://r4.wallpaperflare.com/wallpaper/634/849/169/bruno-mars-pop-r-b-wallpaper-e23f807ceacf73bf23048391d30bb78f.jpg);
     mix-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@
     width: 97%;
     border-radius: 0.5rem;
     gap: 16px;
-    grid-template-columns: 18rem auto 20rem;
+    grid-template-columns: 18rem auto 1rem;
     -webkit-backdrop-filter: blur(5.4px);
     background: rgba(173, 173, 173, 0.171);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);

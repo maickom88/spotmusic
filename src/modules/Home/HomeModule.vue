@@ -1,6 +1,5 @@
 <template>
     <div>
-        asdasds
         <HomeView></HomeView>
     </div>
 </template>

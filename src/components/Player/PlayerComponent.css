@@ -1,0 +1,107 @@
+.bottom-player {
+    display: flex;
+    z-index: 4;
+    width: 100%;
+    padding: 1rem 2rem;
+    height: 125px;
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    border-top: 1px solid rgba(233, 233, 233, 0.35);;
+    justify-content: space-between;
+    margin: 25px auto;
+    background-color: rgba(23, 23, 23, 0.45);
+    backdrop-filter: blur(10px);
+}
+.artist {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.artist > svg {
+    margin-left: 5rem;
+}
+.artist > img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.content-artist {
+    display: flex;
+    color: white;
+    gap: 0.4rem;
+    flex-direction: column;
+}
+.content-artist > :nth-child(1) {
+    font-size: large;
+    font-weight: 400;
+}
+.content-artist > :nth-child(2) {
+    font-size: small;
+}
+.artist > img,
+.content-artist {
+    cursor: pointer;
+}
+.artist > svg {
+    stroke: #ffffff;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+.artist > svg:hover {
+    fill: rgb(252, 74, 74);
+    stroke-width: 3;
+    stroke: rgb(252, 74, 74);
+}
+.player {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    left: 48%;
+    transform: translateX(-50%);
+}
+.player > svg {
+    fill: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.player > :nth-child(3) {
+    transform: scale(1.8);
+}
+.player > svg:hover {
+    fill: var(--purple);
+}
+.settings {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.settings > span {
+    color: white;
+    font-size: small;
+}
+.settings > svg {
+    stroke: white;
+}
+.download > svg {
+    stroke: white;
+    transform: scale(0.8);
+
+    transition: all ease-in-out 0.2s;
+}
+.download {
+    padding: 2px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.download>svg:hover{
+    stroke: rgb(33, 198, 33);
+}

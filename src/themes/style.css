@@ -28,11 +28,11 @@
 }
 .spotmusic {
     display: grid;
+    position: relative;
     height: 97%;
     width: 97%;
     border-radius: 0.5rem;
-    gap: 16px;
-    grid-template-columns: 18rem auto 1rem;
+    grid-template-columns: 18rem auto;
     -webkit-backdrop-filter: blur(5.4px);
     background: rgba(173, 173, 173, 0.171);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
@@ -71,3 +71,8 @@ code {
         transform: translate(-100%, 0);
     }
 }
+
+.main {
+    position: relative;
+}
+

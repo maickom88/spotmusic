@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import SidebarComponent from './components/Sidebar/SidebarComponent.vue';
-
+import SidebarComponent from './components/Sidebar/SidebarComponent.vue'
+import PlayerComponent from './components/Player/PlayerComponent.vue';
 </script>
 
 <template>
@@ -9,6 +9,7 @@ import SidebarComponent from './components/Sidebar/SidebarComponent.vue';
             <SidebarComponent></SidebarComponent>
             <div class="main">
                 <router-view />
+               <PlayerComponent></PlayerComponent>
             </div>
         </div>
     </div>

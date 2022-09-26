@@ -1,4 +1,21 @@
-.sidebar {
+<template >
+     <div class="sidebar-bottom">
+            <span class="text-small">Your account</span>
+            <div class="card-profile">
+                <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    alt=""
+                />
+                <div class="text-description">
+                    <span>Plan Basic</span>
+                    <span>Michael Frank</span>
+                </div>
+            </div>
+        </div>
+</template>
+
+<style scoped>
+    .sidebar {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -36,6 +53,19 @@
     width: 1.8rem;
 }
 ::placeholder {
+    color: white;
+}
+.search-sidebar {
+    display: flex;
+    padding: 10px 10px;
+    background-color: #2d2b29c3;
+    border-radius: 0.6rem;
+}
+.search-sidebar > input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
     color: white;
 }
 .sidebar-items {
@@ -259,3 +289,7 @@
 li > a {
     color: white;
 }
+
+</style>
+
+<script setup></script>

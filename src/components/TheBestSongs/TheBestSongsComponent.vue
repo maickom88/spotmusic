@@ -1,3 +1,40 @@
+<template>
+    <div class="sidebar-discover">
+        <span class="text-small">The best 🔥</span>
+        <div class="cards-players">
+            <div class="card-player">
+                <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    alt=""
+                />
+                <div class="text-description">
+                    <span>Lazy Song</span>
+                    <span>Ludivic </span>
+                </div>
+                <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12C2 
+                            17.52 6.48 22 12 22C17.52 22 22 
+                            17.52 22 12C22 6.48 17.52 2 12 2ZM14.66
+                             13.73L13.38 14.47L12.1 15.21C10.45 16.16 9.1
+                              15.38 9.1 13.48V12V10.52C9.1 8.61 10.45 7.84
+                              12.1 8.79L13.38 9.53L14.66 10.27C16.31 11.22
+                               16.31 12.78 14.66 13.73Z"
+                        fill="#FFFFFF"
+                    />
+                </svg>
+            </div>
+        </div>
+    </div>
+</template>
+
+<style scoped>
 .sidebar {
     display: flex;
     flex-direction: column;
@@ -36,6 +73,19 @@
     width: 1.8rem;
 }
 ::placeholder {
+    color: white;
+}
+.search-sidebar {
+    display: flex;
+    padding: 10px 10px;
+    background-color: #2d2b29c3;
+    border-radius: 0.6rem;
+}
+.search-sidebar > input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
     color: white;
 }
 .sidebar-items {
@@ -259,3 +309,7 @@
 li > a {
     color: white;
 }
+
+</style>
+
+<script setup></script>

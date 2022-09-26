@@ -9,7 +9,7 @@
     </div>
 </template>
 
-<style scoped src="./DiscoverView.css">
+<style scoped src="./PodcastView.css">
 </style>
 
 <script setup lang="ts">

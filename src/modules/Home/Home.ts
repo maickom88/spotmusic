@@ -2,7 +2,7 @@ import { Module } from '../../interfaces/ModuleInterface';
 import HomeRouter from './HomeRouter';
 
 const Home: Module =  {
-    name: 'favorite',
+    name: 'home',
     module: HomeRouter
 };
 

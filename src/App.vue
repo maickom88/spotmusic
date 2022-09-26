@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import SidebarComponent from './components/Sidebar/SidebarComponent.vue'
+import SidebarComponent from './components/Sidebar/SidebarComponent.vue';
 import PlayerComponent from './components/Player/PlayerComponent.vue';
 </script>
 

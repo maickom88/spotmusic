@@ -2,16 +2,16 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 
 const routes: Array<RouteRecordRaw> = [
     {
-        path: '/favorites',
-        name: 'favorites',
+        path: '/podcasts',
+        name: 'podcasts',
         component: () =>
-            import('./FavoriteModule.vue'),
+            import('./PodcastModule.vue'),
     },
 ];
 
-const favoriteRouter = createRouter({
+const podcastRouter = createRouter({
     history: createWebHistory(),
     routes,
 });
 
-export default favoriteRouter;
+export default podcastRouter;
